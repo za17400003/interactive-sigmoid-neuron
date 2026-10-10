@@ -1,12 +1,18 @@
-# Interactive Sigmoid Neuron
+# Clasificador interactivo con neurona sigmoide
 
-An interactive sigmoid-neuron classifier implemented in C++ with MFC.
+Clasificador interactivo de una neurona sigmoide, implementado en C++ con MFC.
 
-## Build
+## Compilación
 
-Open `Neurona1.sln` in Visual Studio, select a supported configuration, and build the solution. Run the resulting application to interact with the classifier.
+Abra `Neurona1.sln` en Visual Studio, seleccione una configuración compatible y compile la solución. Ejecute la aplicación resultante para interactuar con el clasificador.
 
-## Project files
+## Archivos del proyecto
 
-- `Neurona1/Neurona.cpp` and `Neurona1/Neurona.h`: neuron model
-- `Neurona1/Neurona1Dlg.cpp`: main dialog and interaction
+- `Neurona1/Neurona.cpp` y `Neurona1/Neurona.h`: modelo de la neurona.
+- `Neurona1/Neurona1Dlg.cpp`: diálogo principal e interacción.
+
+## Archivos no incluidos
+
+- `Neurona1/Neurona1.vcxproj.user`: configuración local de inicio y depuración de Visual Studio, vinculada a una computadora.
+- `Neurona1/Neurona1.aps`: caché del editor de recursos de Visual Studio; el IDE la vuelve a generar.
+- `.vs/` y los directorios `x64/`: cachés del IDE y resultados compilados, no archivos fuente.
